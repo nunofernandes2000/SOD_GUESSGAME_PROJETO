@@ -6,6 +6,7 @@ import java.net.Socket;
 import java.net.SocketTimeoutException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.Phaser;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -13,6 +14,12 @@ public class Server {
 
     private final static int SOCKET_TIMEOUT = 10000;
     private final static int N_THREADS = 10;
+
+    public static volatile int EXTRACTED_NUMBER; //valor é atualizado para todas as threads
+
+    private static final Lock extractionLock = new ReentrantLock(); //lock para proteger a variável EXTRACTED_NUMBER
+
+    private final static Phaser phaser = new Phaser(); //Phaser para controlar o número de threads que estão a trabalhar
 
 
     public static void main(String[] args) {
@@ -68,7 +75,7 @@ public class Server {
                     System.exit(4);
                 }
 
-                executor.execute(new ServerThread(clientSocket));
+                executor.execute(new ServerThread(clientSocket, extractionLock, phaser));
             }
 
         } catch (IOException e) {

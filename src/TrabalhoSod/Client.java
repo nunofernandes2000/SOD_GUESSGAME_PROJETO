@@ -97,8 +97,6 @@ public class Client {
                 repostaCliente = sc.nextLine();
                 out.println(repostaCliente);
 
-
-
             }
 
 

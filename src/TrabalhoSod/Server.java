@@ -91,14 +91,14 @@ public class Server {
 
             while (true) {
 
-                System.out.println("Main: À espera de novas ligações");
+                System.out.println("Main: À espera de novos jogadores");
 
                 try {
                     clientSocket = serverSocket.accept();
                     System.out.println("Main: Nova ligação");
 
                 } catch (SocketTimeoutException e) {
-                    System.out.println("Main: Acabou o tempo de sorteio");
+                    System.out.println("Main: Acabou o tempo de login");
                     executor.shutdownNow();
                     break;
 

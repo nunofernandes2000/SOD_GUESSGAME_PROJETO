@@ -8,6 +8,8 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
+import static java.lang.Integer.parseInt;
+
 public class Client {
 
     private static int currentChips;
@@ -22,7 +24,7 @@ public class Client {
         int portNumber = 0;
 
         try {
-            portNumber = Integer.parseInt(args[1]);
+            portNumber = parseInt(args[1]);
 
         } catch (NumberFormatException e) {
             System.err.println("Porto inválido: " + args[1]);
@@ -46,13 +48,13 @@ public class Client {
             int value = 4; // Qualquer número que não seja multiplo de 5, para permitir continuar no ciclo
             do {
 
-                System.out.print("\n\n Por favor, indique o montatne em Euros que deseja investir. O valor tem de ser multiplo de 5\n :> ");
+                System.out.print("\n\n Por favor, indique o montante em Euros que deseja investir. O valor tem de ser multiplo de 5\n :> ");
 
                 String text = sc.nextLine();
 
 
                 try {
-                    value = Integer.parseInt(text);
+                    value = parseInt(text);
                     System.err.println("Erro de criação do scoket ou dos buffers de comunicação");
                     System.exit(5);
                 } catch (NumberFormatException e) {
@@ -67,11 +69,104 @@ public class Client {
 
             out.println(value);
 
-            currentChips = Integer.parseInt(in.readLine());
+            currentChips = parseInt(in.readLine());
 
             System.out.println("Número de fichas investidas: " + currentChips);
 
             System.out.println(in.readLine());
+
+
+
+
+
+            //Pedir o número ao utilizador que pretende apostar
+
+            String text;
+            int number;
+
+            while (true) {
+
+                text = "";
+                number = 0;
+                do {
+
+                    System.out.print("Por favor, introduza o número em que quer apostar. Tem de ser um número entre 1 e 36\n :> ");
+                    text = sc.nextLine();
+
+                    try {
+                        number = Integer.parseInt(text); //Transformar o texto em um inteiro
+
+                    } catch (NumberFormatException e) {
+                        System.out.println("Número inválido: " + text);
+                    }
+
+                } while (number < 1 || number > 36);
+
+
+                out.println(number); //Enviar o número ao servidor
+
+
+                //Pedir o número de fichas que o utilizador quer apostar
+
+
+                int chipsToBet = 0;
+                do {
+
+                    System.out.print("Por favor, introduza o número de fichas que quer apostar no número " + number + "\n :> ");
+                    text = sc.nextLine();
+
+                    try {
+                        chipsToBet = Integer.parseInt(text); //Transformar o texto em um inteiro
+
+                    } catch (NumberFormatException e) {
+                        System.out.println("Número  de fichas inválido: " + text);
+                    }
+
+                } while (chipsToBet < 1 || chipsToBet <= currentChips);
+
+
+                out.println(chipsToBet); //Enviar o número ao servidor
+
+
+                int extractedNumber = Integer.parseInt(in.readLine());
+                currentChips = Integer.parseInt(in.readLine());
+
+
+                if (extractedNumber == number) {
+                    System.out.println("Parabéns, acertou no número");
+                } else {
+                    System.out.println("O número extraido foi " + extractedNumber);
+                    System.out.println("Ficou com " + currentChips + " fichas");
+                }
+
+                if (currentChips == 0) {
+                    System.out.println("Não tem mais fichas para apostar. Obrigado");
+                    break;
+                }
+
+
+                //Ciclo para ver o jogador quer continuar ou não a jogar
+
+                do {
+
+                    System.out.println("Deseja fazer mais uma aposta? (S/N)");
+
+                    text = sc.nextLine().toLowerCase();
+
+
+                } while (!text.equals("s") && !text.equals("n"));
+
+                if (text.equals("n")) {
+                    System.out.println("Obrigado por jogar. Até breve.");
+                    out.println("Sair");
+                    break;
+                } else {
+                    out.println("Continuar");
+                }
+
+            }
+
+
 
 
         } catch (UnknownHostException e) {

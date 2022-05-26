@@ -64,6 +64,7 @@ public class ServerThread extends Thread {
             boolean autenticacao = false;
 
             //ciclo para verificar login + tentativas de login
+            //TODO: Resolver o cóidigo, para que este, possa verificar se o utilizador já se encotra logado
 
             do {
                 BufferedReader fileLoginBReader = new BufferedReader(new FileReader(this.PATH + this.loginFile ));
@@ -139,12 +140,13 @@ public class ServerThread extends Thread {
                 out.println("Vamos começar jogar!");
 
 
-                do {
-                    out.println("Bem vindo ao jogo, por favor tente adivinhar o numero secreto");
-                    out.println("O número secreto está entre o min: " +min + " e o max: " +max);
-                    out.println("Por favor insira um numero");
-                } while (autenticacao == true);
+            }
 
+            while(autenticacao == true) {
+
+                out.println("Bem vindo ao jogo, por favor tente adivinhar o numero secreto");
+                out.println("O número secreto está entre o min: " +min + " e o max: " +max);
+                out.println("Por favor insira um numero");
             }
 
 

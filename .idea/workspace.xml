@@ -1,92 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e151cc00-3899-4ad6-8431-f3b27ff66e51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOD_UPDATED.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Folha23/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Folha23/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Folha23/ServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TrabalhoSod/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TrabalhoSod/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TrabalhoSod/ServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TrabalhoSod/login.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex1a/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex1b/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex1c/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex1d/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex1e/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex1f/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex2a/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex2b/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex2c/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex2d/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex2e/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex2f/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex2g/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha1/ex2h/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha10/Multiplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha10/MultiplyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha11/ExtendsThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha11/ImplementsRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha11/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha12/ExecutorThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha12/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha13/LockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha13/PrintJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha13/PrinterQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha14/SemaphoresExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha14/Shared.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha14/ThreadSemaphores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha15/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha15/SpendMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha15/Transactions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha16/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha16/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha16/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha16/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha19/ex1/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha19/ex2/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha2/ex1a/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha2/ex1b/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha2/ex1c/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha2/ex2/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha2/ex2/DrawCircles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha2/ex2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha20/PortsInUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha21/ex1/EchoThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha21/ex1/ThreadedEchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha21/ex2/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha22/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha22/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha22/ServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha22/items.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha22/raffle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha6/Words.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha6/lista_palavras.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha6/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha8/Threads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha8/ThreadsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha9/ex1/GessANumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha9/ex1/Threads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha9/ex2/ListaPessoas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha9/ex2/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/folha9/ex2/ThreadPessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/InputValidation.java" afterDir="false" />
+    <list default="true" id="e151cc00-3899-4ad6-8431-f3b27ff66e51" name="Changes" comment="**VERSÃO03**">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Folha23/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Folha23/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Folha23/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Folha23/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Folha23/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Folha23/ServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/ServerThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopyImageOptionsProvider">
+    <option name="myDirectoryToSave" value="C:\Users\21635\Documents\SOD_UPDATED\Codigo_Prints" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -97,15 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/21635/Documents/SOD_UPDATED/Codigo_Prints",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.Client">
+}]]></component>
+  <component name="RunManager" selected="Application.Folha23.Server">
     <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TrabalhoSod.Client" />
       <module name="SOD_UPDATED" />
@@ -113,6 +50,34 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TrabalhoSod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Folha23.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Folha23.Client" />
+      <module name="SOD_UPDATED" />
+      <option name="PROGRAM_PARAMETERS" value="CAMP-S213-5 6666" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Folha23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Folha23.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Folha23.Server" />
+      <module name="SOD_UPDATED" />
+      <option name="PROGRAM_PARAMETERS" value="6666" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Folha23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +100,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Folha23.Client" />
+      <item itemvalue="Application.Folha23.Server" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.TrabalhoSod.Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Folha23.Client" />
+        <item itemvalue="Application.Folha23.Server" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.TrabalhoSod.Server" />
       </list>
@@ -160,7 +129,23 @@
       <workItem from="1653376773729" duration="16000" />
       <workItem from="1653390811401" duration="23000" />
       <workItem from="1653391405952" duration="99000" />
+      <workItem from="1653398199068" duration="144000" />
+      <workItem from="1653463686173" duration="55000" />
+      <workItem from="1653463754538" duration="101000" />
+      <workItem from="1653470955463" duration="142000" />
+      <workItem from="1653482127276" duration="80000" />
+      <workItem from="1653548846427" duration="6905000" />
+      <workItem from="1653556779533" duration="251000" />
+      <workItem from="1653557036380" duration="3392000" />
     </task>
+    <task id="LOCAL-00001" summary="**VERSÃO03**">
+      <created>1653398285642</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653398285642</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +161,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="**VERSÃO03**" />
+    <option name="LAST_COMMIT_MESSAGE" value="**VERSÃO03**" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
