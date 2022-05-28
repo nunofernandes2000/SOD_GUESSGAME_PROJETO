@@ -42,13 +42,11 @@ public class Client {
         ) {
 
 
-
             //Pedir dados ao cliente necessários para fazer o login
 
             System.out.println("Olá, bem-vindo!");
+            boolean autenticado = false;
             do {
-
-                boolean autenticado = false;
                 String username = "";
                 String password = "";
                 System.out.println("Introduza o seu username: ");
@@ -80,36 +78,56 @@ public class Client {
 
             } while (true);
 
-            String respotaInicial = in.readLine();
-            String respotaInicial2 = in.readLine();
-            System.out.println(respotaInicial);
-            System.out.println(respotaInicial2);
+
+            System.out.println("Erro3");
 
 
-            //TODO: corrigir bug do jogo do lado do cliente
-            //Jogo lado do cliente
-            boolean autenticado = false;
-            while (autenticado == true) {
-                String repostaCliente = "";
-                String jogo = in.readLine();
-                String jogo2 = in.readLine();
-                String jogo3 = in.readLine();
-                repostaCliente = sc.nextLine();
-                out.println(repostaCliente);
+            //TODO: ADICIONAR DENTRO do DO LOOP, um ciclo para verificar se é inteiro ou não
+            //TODO: ADICIONAR LOOP DO JOGO PARA RESPONDER!!
 
+            //JOGO DO LADO DO CLIENTE
+
+            if (autenticado == true) {
+
+
+
+            String RespostaCliente; //numero a adivinhar
+            String RespostaServer;
+
+            System.out.println(in.readLine());
+            System.out.println(in.readLine());
+
+            do {
+
+
+                RespostaCliente = sc.nextLine().toUpperCase();
+                out.println(RespostaCliente);
+                if (RespostaCliente.equals("DESISTO")) {
+                    break;
+                }
+                RespostaServer = in.readLine();
+                if (RespostaServer.equals("O número que vai que adivinhar é menor que o que escolheu")) {
+                    System.out.println(RespostaServer);
+                } else if (RespostaServer.equals("O número que vai que adivinhar é maior que o que escolheu")) {
+                    System.out.println(RespostaServer);
+                } else if (RespostaServer.equals("Parabéns, acertou!")) {
+                    System.out.println(RespostaServer);
+                    break;
+
+                }
+            } while (autenticado == true) ;
             }
 
 
-
-
-        } catch (UnknownHostException e) {
+        } catch(UnknownHostException e){
             System.err.println("Host desconhecido: " + args[0]);
             System.exit(4);
 
-        } catch (IOException e) {
+        } catch(IOException e){
             System.err.println("Erro de criação do socket ou dos buffers de comunicação");
             System.exit(5);
         }
     }
-
 }
+
+

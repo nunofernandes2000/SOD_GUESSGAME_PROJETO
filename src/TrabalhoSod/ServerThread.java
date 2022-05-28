@@ -62,14 +62,16 @@ public class ServerThread extends Thread {
             String line = "";
             int tentativas = 0;
             boolean autenticacao = false;
+            String username;
+            String password;
 
             //ciclo para verificar login + tentativas de login
             //TODO: Resolver o cóidigo, para que este, possa verificar se o utilizador já se encotra logado
 
             do {
                 BufferedReader fileLoginBReader = new BufferedReader(new FileReader(this.PATH + this.loginFile ));
-                String username = in.readLine();
-                String password = in.readLine();
+                username = in.readLine();
+                password = in.readLine();
 
                 line = "";
                 while (line != null) {
@@ -130,24 +132,54 @@ public class ServerThread extends Thread {
                 }
             }
 
+            System.out.println("ERRO2");
 
 
-            //TODO: corrigir bug do jogo do lado do serverThread
-            //jogo lado do serverThread
+
+
+            //JOGO LADO DO SERVERTHREAD
 
             if (autenticacao == true) {
-                out.println("Tempo de espera de login acabou!");
-                out.println("Vamos começar jogar!");
 
 
+            System.out.println("Vamos começar a jogar");
+            out.println("Vamos começar a jogar!");
+            System.out.println("O número que vai que adivinhar vai estar entre: " + min + " e " + max + ". Boa sorte!");
+            out.println("O número que vai que adivinhar vai estar entre: " + min + " e " + max + ". Boa sorte!");
+
+            do {
+                String RespostaCliente2; //variavel que guarda resposta do cliente
+                int guess2;
+                System.out.println("ERRO");
+                RespostaCliente2 = in.readLine(); //recebe a resposta do cliente
+                if (RespostaCliente2.equals("DESISTO")) {
+                    System.out.println("O utilizador: " +username + " desistiu");
+                    break;
+                }
+                guess2 = Integer.parseInt(RespostaCliente2);
+                System.out.println(RespostaCliente2);
+
+                //TODO: fazer ciclo enquanto o jogador nao desistir, continuar a jogar!!!
+
+                    if (guess2 > GuessNumber){
+                        System.out.println("O número que vai que adivinhar é menor que o que escolheu");
+                        out.println("O número que vai que adivinhar é menor que o que escolheu");
+                    } else if (guess2 < GuessNumber){
+                        System.out.println("O user "+username+" escolheu o "+guess2+" sendo que o numero a advinhar é maior");
+                        out.println("O número que vai que adivinhar é maior que o que escolheu");
+                    } else if (guess2 == GuessNumber){
+                        System.out.println("Parabéns, acertou!");
+                        out.println("Parabéns, acertou!");
+                        break;
+                    }
+
+
+            }while(autenticacao == true);
             }
 
-            while(autenticacao == true) {
 
-                out.println("Bem vindo ao jogo, por favor tente adivinhar o numero secreto");
-                out.println("O número secreto está entre o min: " +min + " e o max: " +max);
-                out.println("Por favor insira um numero");
-            }
+
+
 
 
 

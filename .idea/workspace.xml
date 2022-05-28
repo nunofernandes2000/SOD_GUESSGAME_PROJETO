@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e151cc00-3899-4ad6-8431-f3b27ff66e51" name="Changes" comment="**VERSÃO03**">
+    <list default="true" id="e151cc00-3899-4ad6-8431-f3b27ff66e51" name="Changes" comment="**VERSÃO04**">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Folha23/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Folha23/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Folha23/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Folha23/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Folha23/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Folha23/ServerThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/ServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/login.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/login.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,30 +30,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/21635/Documents/SOD_UPDATED/Codigo_Prints",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anafe/Desktop/Versão Atual/SOD_UPDATED&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Folha23.Server">
-    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TrabalhoSod.Client" />
-      <module name="SOD_UPDATED" />
-      <option name="PROGRAM_PARAMETERS" value="CAMP-S213-5 6666" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TrabalhoSod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.TrabalhoSod.Client">
     <configuration name="Folha23.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Folha23.Client" />
       <module name="SOD_UPDATED" />
@@ -85,6 +68,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrabalhoSod.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrabalhoSod.Client" />
+      <module name="SOD_UPDATED" />
+      <option name="PROGRAM_PARAMETERS" value="DESKTOP-P27HMO5 6666" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TrabalhoSod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrabalhoSod.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TrabalhoSod.Server" />
       <module name="SOD_UPDATED" />
@@ -102,15 +99,15 @@
     <list>
       <item itemvalue="Application.Folha23.Client" />
       <item itemvalue="Application.Folha23.Server" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.TrabalhoSod.Client" />
       <item itemvalue="Application.TrabalhoSod.Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrabalhoSod.Client" />
+        <item itemvalue="Application.TrabalhoSod.Server" />
         <item itemvalue="Application.Folha23.Client" />
         <item itemvalue="Application.Folha23.Server" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.TrabalhoSod.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +133,11 @@
       <workItem from="1653482127276" duration="80000" />
       <workItem from="1653548846427" duration="6905000" />
       <workItem from="1653556779533" duration="251000" />
-      <workItem from="1653557036380" duration="3392000" />
+      <workItem from="1653557036380" duration="3554000" />
+      <workItem from="1653561140302" duration="764000" />
+      <workItem from="1653635271500" duration="42000" />
+      <workItem from="1653635328745" duration="8021000" />
+      <workItem from="1653648157984" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="**VERSÃO03**">
       <created>1653398285642</created>
@@ -145,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653398285642</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="**VERSÃO04**">
+      <created>1653560593107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653560593107</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +172,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="**VERSÃO03**" />
-    <option name="LAST_COMMIT_MESSAGE" value="**VERSÃO03**" />
+    <MESSAGE value="**VERSÃO04**" />
+    <option name="LAST_COMMIT_MESSAGE" value="**VERSÃO04**" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
