@@ -79,11 +79,6 @@ public class Client {
             } while (true);
 
 
-            System.out.println("Erro3");
-
-
-            //TODO: ADICIONAR DENTRO do DO LOOP, um ciclo para verificar se é inteiro ou não
-            //TODO: ADICIONAR LOOP DO JOGO PARA RESPONDER!!
 
             //JOGO DO LADO DO CLIENTE
 

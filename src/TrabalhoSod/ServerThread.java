@@ -66,7 +66,7 @@ public class ServerThread extends Thread {
             String password;
 
             //ciclo para verificar login + tentativas de login
-            //TODO: Resolver o cóidigo, para que este, possa verificar se o utilizador já se encotra logado
+            //TODO: Resolver o código, para que este, possa verificar se o utilizador já se encotra logado
 
             do {
                 BufferedReader fileLoginBReader = new BufferedReader(new FileReader(this.PATH + this.loginFile ));
@@ -132,8 +132,6 @@ public class ServerThread extends Thread {
                 }
             }
 
-            System.out.println("ERRO2");
-
 
 
 
@@ -159,10 +157,9 @@ public class ServerThread extends Thread {
                 guess2 = Integer.parseInt(RespostaCliente2);
                 System.out.println(RespostaCliente2);
 
-                //TODO: fazer ciclo enquanto o jogador nao desistir, continuar a jogar!!!
 
                     if (guess2 > GuessNumber){
-                        System.out.println("O número que vai que adivinhar é menor que o que escolheu");
+                        System.out.println("O user "+username+" escolheu o "+guess2+" sendo que o numero a advinhar é menor");
                         out.println("O número que vai que adivinhar é menor que o que escolheu");
                     } else if (guess2 < GuessNumber){
                         System.out.println("O user "+username+" escolheu o "+guess2+" sendo que o numero a advinhar é maior");
@@ -176,15 +173,6 @@ public class ServerThread extends Thread {
 
             }while(autenticacao == true);
             }
-
-
-
-
-
-
-
-
-
 
 
 
