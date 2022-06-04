@@ -5,9 +5,11 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -19,22 +21,22 @@ public class Server {
     private static int max; //min for the random number generator
     private static int GuessNumber; //valor que o cliente deve adivinhar
 
-    private static String login; // login do jogador
+    //private static String AlreadyLogged; // Jogador já se encontra logado no server
     private static String PATH = System.getProperty("user.dir") + "\\src\\TrabalhoSod\\"; // path do arquivo de login
     private static String loginFile = "login.txt"; //arquivo de login
 
-    //private final static Lock itemsLock = new ReentrantLock();
-    //private final static Lock raffleLock = new ReentrantLock();
+    private final static Lock Lock1 = new ReentrantLock();
+    private final static Lock LockLogin = new ReentrantLock(); //lock para o login
+
+    private final static Lock LockTimer = new ReentrantLock(); // Lock para o timer
 
     public static void main(String[] args) {
-
 
 
         //Pede os valores do minimo e do maximo para o gerador de numeros aleatorios
 
         Scanner teclado = new Scanner(System.in);
         do {
-
 
             System.out.println("Introduza um valor Máximo para o jogo do GuessNumber");
             max = teclado.nextInt();
@@ -48,6 +50,7 @@ public class Server {
         System.out.println("Maximo"+max);
         GuessNumber = (int)(Math.random()*(max -min +1)+min);
         System.out.println(GuessNumber);
+        System.out.println("O número que vai ter de ser adivinhado é: " + GuessNumber);
 
 
 
@@ -106,9 +109,10 @@ public class Server {
                     System.err.println("Main: Ocorreu um erro de I/O ao tentar criar o socket no porto " + portNumber);
                     System.exit(4);
                 }
-                executor.execute(new ServerThread(clientSocket, GuessNumber, PATH,loginFile,max,min));
+                executor.execute(new ServerThread(clientSocket, GuessNumber, PATH,loginFile,max,min,Lock1,LockLogin));
 
             }
+
 
         } catch (IOException e) {
             System.err.println("Main: Ocorreu um erro de I/O ao tentar criar o socket no porto " + portNumber);

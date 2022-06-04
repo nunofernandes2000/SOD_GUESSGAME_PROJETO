@@ -44,7 +44,7 @@ public class Client {
 
             //Pedir dados ao cliente necessários para fazer o login
 
-            System.out.println("Olá, bem-vindo!");
+            System.out.println("Olá, seja bem-vindo!");
             boolean autenticado = false;
             do {
                 String username = "";
@@ -86,31 +86,33 @@ public class Client {
 
 
 
-            String RespostaCliente; //numero a adivinhar
-            String RespostaServer;
+                String RespostaCliente; //numero a adivinhar
+                String RespostaServer;
 
-            System.out.println(in.readLine());
-            System.out.println(in.readLine());
+                //Mensagens recebidas do serverThread
 
-            do {
+                System.out.println(in.readLine());
+                System.out.println(in.readLine());
+                System.out.println(in.readLine());
+
+                do {
 
 
-                RespostaCliente = sc.nextLine().toUpperCase();
-                out.println(RespostaCliente);
-                if (RespostaCliente.equals("DESISTO")) {
-                    break;
-                }
-                RespostaServer = in.readLine();
-                if (RespostaServer.equals("O número que vai que adivinhar é menor que o que escolheu")) {
-                    System.out.println(RespostaServer);
-                } else if (RespostaServer.equals("O número que vai que adivinhar é maior que o que escolheu")) {
-                    System.out.println(RespostaServer);
-                } else if (RespostaServer.equals("Parabéns, acertou!")) {
-                    System.out.println(RespostaServer);
-                    break;
-
-                }
-            } while (autenticado == true) ;
+                    RespostaCliente = sc.nextLine().toUpperCase();
+                    out.println(RespostaCliente);
+                    if (RespostaCliente.equals("DESISTO")) {
+                        break;
+                    }
+                    RespostaServer = in.readLine();
+                    if (RespostaServer.equals("O número que vai que adivinhar é menor que o que escolheu")) {
+                        System.out.println(RespostaServer);
+                    } else if (RespostaServer.equals("O número que vai que adivinhar é maior que o que escolheu")) {
+                        System.out.println(RespostaServer);
+                    } else if (RespostaServer.equals("Parabéns, acertou!")) {
+                        System.out.println(RespostaServer);
+                        break;
+                    }
+                } while (autenticado == true) ;
             }
 
 
