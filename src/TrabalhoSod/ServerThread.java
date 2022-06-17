@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.concurrent.locks.Lock;
 
 
+
 import static folha16.Buffer.min;
 import static java.awt.SystemColor.text;
 
@@ -16,9 +17,9 @@ public class ServerThread extends Thread {
     private String PATH;
     private String loginFile;
 
-    private Lock itemsLock;
+    private Lock Lock1;
 
-    private Lock raffleLock;
+    private Lock LockLogin;
 
     private int GuessNumber;
 
@@ -27,15 +28,8 @@ public class ServerThread extends Thread {
     private int max;
 
 
-    private BufferedReader fileItemsBReader;
 
-    private BufferedReader fileRaffleBReader;
-
-    private BufferedWriter fileRaffleBWriter;
-
-    private int itemNumberRaffle;
-
-    public ServerThread(Socket clientSocket, int GuessNumber, String PATH, String loginFile, int min, int max) {
+    public ServerThread(Socket clientSocket, int GuessNumber, String PATH, String loginFile, int min, int max, Lock Lock1, Lock LockLogin) {
 
         this.clientSocket = clientSocket;
         this.GuessNumber = GuessNumber;
@@ -43,6 +37,8 @@ public class ServerThread extends Thread {
         this.loginFile = loginFile;
         this.min = min;
         this.max = max;
+        this.Lock1 = Lock1;
+        this.LockLogin = LockLogin;
     }
 
     @Override
@@ -62,11 +58,12 @@ public class ServerThread extends Thread {
             String line = "";
             int tentativas = 0;
             boolean autenticacao = false;
-            String username;
+            String username = null;
             String password;
 
+
+
             //ciclo para verificar login + tentativas de login
-            //TODO: Resolver o código, para que este, possa verificar se o utilizador já se encotra logado
 
             do {
                 BufferedReader fileLoginBReader = new BufferedReader(new FileReader(this.PATH + this.loginFile ));
@@ -83,15 +80,14 @@ public class ServerThread extends Thread {
 
 
                     if (line == null) {
-                        System.out.println("erro");
                         break;
                     } else
-                        System.out.println("fafa");
 
                     if (line.equals(Login)) {
                         autenticacao = true;
                         out.println("Login efetuado com sucesso");
                         System.out.println("Login efetuado com sucesso");
+                        System.out.println("O jogador com username: " +username+ " efectou o login");
                         break;
                     }
                     else {
@@ -106,7 +102,7 @@ public class ServerThread extends Thread {
                 }
 
                 if(!autenticacao) {
-                    System.out.println("Login incorreto, tente novamente" + tentativas);
+                    System.out.println("Login incorreto, tente novamente" + " número de tentativas -> " + tentativas);
                     tentativas ++;
 
                     if (tentativas < 3) {
@@ -116,6 +112,7 @@ public class ServerThread extends Thread {
 
 
             } while( autenticacao == false && tentativas < 3);
+
 
 
             if(autenticacao == false && tentativas == 3){
@@ -133,47 +130,58 @@ public class ServerThread extends Thread {
             }
 
 
-
-
             //JOGO LADO DO SERVERTHREAD
 
             if (autenticacao == true) {
 
 
-            System.out.println("Vamos começar a jogar");
-            out.println("Vamos começar a jogar!");
-            System.out.println("O número que vai que adivinhar vai estar entre: " + min + " e " + max + ". Boa sorte!");
-            out.println("O número que vai que adivinhar vai estar entre: " + min + " e " + max + ". Boa sorte!");
-
-            do {
-                String RespostaCliente2; //variavel que guarda resposta do cliente
-                int guess2;
-                System.out.println("ERRO");
-                RespostaCliente2 = in.readLine(); //recebe a resposta do cliente
-                if (RespostaCliente2.equals("DESISTO")) {
-                    System.out.println("O utilizador: " +username + " desistiu");
-                    break;
-                }
-                guess2 = Integer.parseInt(RespostaCliente2);
-                System.out.println(RespostaCliente2);
+                //Mensagens enviadas para o cliente
 
 
-                    if (guess2 > GuessNumber){
-                        System.out.println("O user "+username+" escolheu o "+guess2+" sendo que o numero a advinhar é menor");
+                out.println("Vamos começar a jogar!");
+                out.println("O número que vai que adivinhar vai estar entre: " + min + " e " + max + ". Boa sorte!");
+                out.println("Em qualquer momento do jogo, pode desistir se quiser, escrevendo 'desisto'");
+
+                do {
+                    String RespostaCliente2; //variavel que guarda resposta do cliente
+                    int guess2;
+
+                    RespostaCliente2 = in.readLine(); //recebe a resposta do cliente
+
+                    if (RespostaCliente2.equals("DESISTO")) {
+                        System.out.println("O jogador: " +username + " desistiu");
+                        break;
+                    }
+
+
+                    guess2 = Integer.parseInt(RespostaCliente2);
+                    System.out.println("O jogador com username: " + username + " enviou o número: " + RespostaCliente2);
+
+
+
+                    if (Shared.GuessWinner.length() > 2){
+                        out.println(Shared.GuessWinner);
+                        break;
+                    } else if (Shared.TimeEnd == true) {
+                        out.println("Acabou o jogo");
+
+                    }
+                    else if (guess2 > GuessNumber){
+                        System.out.println("O jogador  "+username+" escolheu o "+guess2+" sendo que o número a adivinhar é menor");
                         out.println("O número que vai que adivinhar é menor que o que escolheu");
                     } else if (guess2 < GuessNumber){
-                        System.out.println("O user "+username+" escolheu o "+guess2+" sendo que o numero a advinhar é maior");
+                        System.out.println("O jogador "+username+" escolheu o "+guess2+" sendo que o número a adivinhar é maior");
                         out.println("O número que vai que adivinhar é maior que o que escolheu");
                     } else if (guess2 == GuessNumber){
-                        System.out.println("Parabéns, acertou!");
+                        System.out.println("O jogador " +username+ " acertou no numero a adivinhar, parabéns!");
+                        Shared.GuessWinner = "O jogador com username: " + username + " Acertou no numero" + " e o número correto era: " + GuessNumber;
                         out.println("Parabéns, acertou!");
                         break;
                     }
 
 
-            }while(autenticacao == true);
+                }while(autenticacao == true);
             }
-
 
 
         } catch (FileNotFoundException e) {
