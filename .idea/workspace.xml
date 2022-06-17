@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/ServerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/login.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/login.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,33 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/21635/Desktop/GuessGame_ESTGP",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anafe/Desktop/Trabalho Pedro/TrabalhoSod&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TrabalhoSod.Client" />
-      <module name="SOD_UPDATED" />
-      <option name="PROGRAM_PARAMETERS" value="CAMP-S213-5 6666" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TrabalhoSod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.TrabalhoSod.Client">
     <configuration name="Folha23.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Folha23.Client" />
       <module name="SOD_UPDATED" />
@@ -94,6 +79,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrabalhoSod.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrabalhoSod.Client" />
+      <module name="SOD_UPDATED" />
+      <option name="PROGRAM_PARAMETERS" value="DESKTOP-P27HMO5 6666" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TrabalhoSod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrabalhoSod.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TrabalhoSod.Server" />
       <module name="SOD_UPDATED" />
@@ -111,13 +110,13 @@
     <list>
       <item itemvalue="Application.Folha23.Client" />
       <item itemvalue="Application.Folha23.Server" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.TrabalhoSod.Client" />
       <item itemvalue="Application.TrabalhoSod.Server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
         <item itemvalue="Application.TrabalhoSod.Server" />
+        <item itemvalue="Application.TrabalhoSod.Client" />
         <item itemvalue="Application.Folha23.Server" />
         <item itemvalue="Application.Folha23.Client" />
       </list>
@@ -152,13 +151,6 @@
       <workItem from="1653648157984" duration="22000" />
       <workItem from="1653996822336" duration="156000" />
       <workItem from="1654008107041" duration="236000" />
-      <workItem from="1654521160183" duration="5877000" />
-      <workItem from="1655110099445" duration="5829000" />
-      <workItem from="1655117048890" duration="175000" />
-      <workItem from="1655117268711" duration="2273000" />
-      <workItem from="1655125570381" duration="500000" />
-      <workItem from="1655126116057" duration="90000" />
-      <workItem from="1655479479932" duration="149000" />
     </task>
     <task id="LOCAL-00001" summary="**VERSÃO03**">
       <created>1653398285642</created>
