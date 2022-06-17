@@ -1,0 +1,133 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e151cc00-3899-4ad6-8431-f3b27ff66e51\" name=\"Changes\" comment=\"**VERSÃO04**\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/TrabalhoSod/Client.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/TrabalhoSod/Client.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/TrabalhoSod/ServerThread.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/TrabalhoSod/ServerThread.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CopyImageOptionsProvider\">\r\n    <option name=\"myDirectoryToSave\" value=\"C:\\Users\\21635\\Documents\\SOD_UPDATED\\Codigo_Prints\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitToolBoxStore\">\r\n    <option name=\"projectConfigVersion\" value=\"5\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"29NF7QuVebozNbAgYtuq8pWjAXw\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/anafe/Desktop/Versão Atual/SOD_UPDATED&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.TrabalhoSod.Client\">\r\n    <configuration name=\"Folha23.Client\" type=\"Application\" factoryName=\"Application\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Folha23.Client\" />\r\n      <module name=\"SOD_UPDATED\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"CAMP-S213-5 6666\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Folha23.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Folha23.Server\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Folha23.Server\" />\r\n      <module name=\"SOD_UPDATED\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"6666\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Folha23.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TrabalhoSod.Client\" type=\"Application\" factoryName=\"Application\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"TrabalhoSod.Client\" />\r\n      <module name=\"SOD_UPDATED\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"DESKTOP-P27HMO5 6666\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"TrabalhoSod.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TrabalhoSod.Server\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"TrabalhoSod.Server\" />\r\n      <module name=\"SOD_UPDATED\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"6666\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"TrabalhoSod.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Application.Folha23.Client\" />\r\n      <item itemvalue=\"Application.Folha23.Server\" />\r\n      <item itemvalue=\"Application.TrabalhoSod.Client\" />\r\n      <item itemvalue=\"Application.TrabalhoSod.Server\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.TrabalhoSod.Client\" />\r\n        <item itemvalue=\"Application.TrabalhoSod.Server\" />\r\n        <item itemvalue=\"Application.Folha23.Client\" />\r\n        <item itemvalue=\"Application.Folha23.Server\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e151cc00-3899-4ad6-8431-f3b27ff66e51\" name=\"Changes\" comment=\"\" />\r\n      <created>1652945470200</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1652945470200</updated>\r\n      <workItem from=\"1652945471526\" duration=\"1173000\" />\r\n      <workItem from=\"1652946671671\" duration=\"9448000\" />\r\n      <workItem from=\"1653036448208\" duration=\"4553000\" />\r\n      <workItem from=\"1653041935881\" duration=\"1855000\" />\r\n      <workItem from=\"1653376773729\" duration=\"16000\" />\r\n      <workItem from=\"1653390811401\" duration=\"23000\" />\r\n      <workItem from=\"1653391405952\" duration=\"99000\" />\r\n      <workItem from=\"1653398199068\" duration=\"144000\" />\r\n      <workItem from=\"1653463686173\" duration=\"55000\" />\r\n      <workItem from=\"1653463754538\" duration=\"101000\" />\r\n      <workItem from=\"1653470955463\" duration=\"142000\" />\r\n      <workItem from=\"1653482127276\" duration=\"80000\" />\r\n      <workItem from=\"1653548846427\" duration=\"6905000\" />\r\n      <workItem from=\"1653556779533\" duration=\"251000\" />\r\n      <workItem from=\"1653557036380\" duration=\"3554000\" />\r\n      <workItem from=\"1653561140302\" duration=\"764000\" />\r\n      <workItem from=\"1653635271500\" duration=\"42000\" />\r\n      <workItem from=\"1653635328745\" duration=\"8021000\" />\r\n      <workItem from=\"1653648157984\" duration=\"22000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"**VERSÃO03**\">\r\n      <created>1653398285642</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1653398285642</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"**VERSÃO04**\">\r\n      <created>1653560593107</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1653560593107</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"**VERSÃO03**\" />\r\n    <MESSAGE value=\"**VERSÃO04**\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"**VERSÃO04**\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a1cfa12715c0d4a0067b5b0d69437ceae58dae90)
++++ b/.idea/workspace.xml	(date 1655494111381)
+@@ -2,9 +2,12 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="e151cc00-3899-4ad6-8431-f3b27ff66e51" name="Changes" comment="**VERSÃO04**">
++      <change afterPath="$PROJECT_DIR$/src/TrabalhoSod/Shared.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/Client.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/Server.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/ServerThread.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/login.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/login.txt" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -13,6 +16,13 @@
+   </component>
+   <component name="CopyImageOptionsProvider">
+     <option name="myDirectoryToSave" value="C:\Users\21635\Documents\SOD_UPDATED\Codigo_Prints" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -34,18 +44,21 @@
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/anafe/Desktop/Versão Atual/SOD_UPDATED&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/21635/Desktop/GuessGame_ESTGP&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+   }
+ }</component>
+-  <component name="RunManager" selected="Application.TrabalhoSod.Client">
+-    <configuration name="Folha23.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Folha23.Client" />
++  <component name="RunManager" selected="Application.Client">
++    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="TrabalhoSod.Client" />
+       <module name="SOD_UPDATED" />
+       <option name="PROGRAM_PARAMETERS" value="CAMP-S213-5 6666" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="Folha23.*" />
++          <option name="PATTERN" value="TrabalhoSod.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -53,10 +66,10 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Folha23.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Folha23.Server" />
++    <configuration name="Folha23.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Folha23.Client" />
+       <module name="SOD_UPDATED" />
+-      <option name="PROGRAM_PARAMETERS" value="6666" />
++      <option name="PROGRAM_PARAMETERS" value="CAMP-S213-5 6666" />
+       <extension name="coverage">
+         <pattern>
+           <option name="PATTERN" value="Folha23.*" />
+@@ -67,13 +80,13 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TrabalhoSod.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="TrabalhoSod.Client" />
++    <configuration name="Folha23.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Folha23.Server" />
+       <module name="SOD_UPDATED" />
+-      <option name="PROGRAM_PARAMETERS" value="DESKTOP-P27HMO5 6666" />
++      <option name="PROGRAM_PARAMETERS" value="6666" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="TrabalhoSod.*" />
++          <option name="PATTERN" value="Folha23.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -96,17 +109,17 @@
+       </method>
+     </configuration>
+     <list>
++      <item itemvalue="Application.Client" />
+       <item itemvalue="Application.Folha23.Client" />
+       <item itemvalue="Application.Folha23.Server" />
+-      <item itemvalue="Application.TrabalhoSod.Client" />
+       <item itemvalue="Application.TrabalhoSod.Server" />
+     </list>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.TrabalhoSod.Client" />
++        <item itemvalue="Application.Client" />
+         <item itemvalue="Application.TrabalhoSod.Server" />
+-        <item itemvalue="Application.Folha23.Client" />
+         <item itemvalue="Application.Folha23.Server" />
++        <item itemvalue="Application.Folha23.Client" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -137,6 +150,15 @@
+       <workItem from="1653635271500" duration="42000" />
+       <workItem from="1653635328745" duration="8021000" />
+       <workItem from="1653648157984" duration="22000" />
++      <workItem from="1653996822336" duration="156000" />
++      <workItem from="1654008107041" duration="236000" />
++      <workItem from="1654521160183" duration="5877000" />
++      <workItem from="1655110099445" duration="5829000" />
++      <workItem from="1655117048890" duration="175000" />
++      <workItem from="1655117268711" duration="2273000" />
++      <workItem from="1655125570381" duration="500000" />
++      <workItem from="1655126116057" duration="90000" />
++      <workItem from="1655479479932" duration="149000" />
+     </task>
+     <task id="LOCAL-00001" summary="**VERSÃO03**">
+       <created>1653398285642</created>
