@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e151cc00-3899-4ad6-8431-f3b27ff66e51" name="Changes" comment="**VERSÃO04**">
+      <change afterPath="$PROJECT_DIR$/src/TrabalhoSod/Shared.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TrabalhoSod/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabalhoSod/ServerThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +15,13 @@
   </component>
   <component name="CopyImageOptionsProvider">
     <option name="myDirectoryToSave" value="C:\Users\21635\Documents\SOD_UPDATED\Codigo_Prints" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,7 +43,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/anafe/Desktop/Versão Atual/SOD_UPDATED&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anafe/Desktop/Trabalho Pedro/TrabalhoSod&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
@@ -103,10 +115,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TrabalhoSod.Client" />
         <item itemvalue="Application.TrabalhoSod.Server" />
-        <item itemvalue="Application.Folha23.Client" />
+        <item itemvalue="Application.TrabalhoSod.Client" />
         <item itemvalue="Application.Folha23.Server" />
+        <item itemvalue="Application.Folha23.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +149,8 @@
       <workItem from="1653635271500" duration="42000" />
       <workItem from="1653635328745" duration="8021000" />
       <workItem from="1653648157984" duration="22000" />
+      <workItem from="1653996822336" duration="156000" />
+      <workItem from="1654008107041" duration="236000" />
     </task>
     <task id="LOCAL-00001" summary="**VERSÃO03**">
       <created>1653398285642</created>
